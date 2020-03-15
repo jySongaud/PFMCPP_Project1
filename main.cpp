@@ -35,88 +35,110 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
  1)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: note
+ action 1: the note shifts up an octave
+ action 2: the note shifts down an octave
+ action 3: the note keeps a length of half note
  */
-
+note.shiftUpAnOctave();
+note.shiftDownAnOctave();
+note.keepALengthOfHalfNote();
 
 /*
  2)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:quarter
+ action 1: the quarter starts
+ action 2: the quarter ends
+ action 3: the quarter suspends
  */
-
+quarter.start();
+quarter.end();
+quarter.suspend();
 /*
  3)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:pro tools
+ action 1: the pro tools launches
+ action 2: the pro tools quits
+ action 3: the pro tools insert a new track
  */
-
+protools.launch();
+protools.quit();
+protools.insertANewTrack;
 
 /*
  4)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:timer
+ action 1:the timer rings
+ action 2:the timer sets 
+ action 3:the timer resets
  */
-
+timer.ring();
+timer.set();
+timer.reset();
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:coffee maker
+ action 1: the coffee maker heats up
+ action 2: the coffee maker cleans up
+ action 3: the coffe maker brews coffee
  */
-
+coffeemaker.heatUp();
+coffeemaker.cleanUp();
+coffeemaker.brewCoffee();
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:file
+ action 1: copy the file
+ action 2: delete the file
+ action 3: duplicate the file
  */
-
+file.copy();
+file.delete();
+file.duplicate();
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:email
+ action 1:send the email
+ action 2:reply the email
+ action 3:save the email as a draft
  */
+ email.send();
+ email.reply();
+ email.saveAsADraft();
 
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: dumplings
+ action 1: spoil dumplings
+ action 2: fry dumplings
+ action 3: freeze dumplings
  */
-
+dumplings.spoil();
+dumplings.fry();
+dumplings.freeze();
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:sun
+ action 1:the sun sets
+ action 2:the sun rises
+ action 3:the sun eclipses
  */
-
+sun.set();
+sun.rise();
+sun.eclipse();
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:washer
+ action 1: set the load of water for washer
+ action 2: set the temperature of water for washer
+ action 3: set the length of time for washer
  */
+ washer.setTheLoadOfWater();
+ washer.setTheTemperatureOfWater();
+ washer.setTheLengthOfTime();
 
 
 #endif
