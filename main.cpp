@@ -82,9 +82,9 @@ timer.reset();
  action 2: the coffee maker cleans up
  action 3: the coffe maker brews coffee
  */
-coffeemaker.heatUp();
-coffeemaker.cleanUp();
-coffeemaker.brewCoffee();
+coffeeMaker.heatUp();
+coffeeMaker.cleanUp();
+coffeeMaker.brewCoffee();
 
 /*
  6)
